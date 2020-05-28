@@ -1,0 +1,9 @@
+.operators_panel_container {
+    width: 24%;
+    height: 56vh;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #ffffff;
+}

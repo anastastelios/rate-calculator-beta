@@ -1,0 +1,9 @@
+select {
+    font-size: 1.2rem;
+    padding: 0.7rem;
+    border-radius: 5%;
+}
+
+select:focus {
+    outline: none;
+}

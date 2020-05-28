@@ -1,0 +1,31 @@
+.number_btn {
+    display: inline-block;
+    width: 30%;
+    height: 23%;
+    margin: auto;
+    border-radius: 5%;
+    border: none;
+    font-size: 2rem;
+    background-color: #c2c2c2;
+    cursor: pointer;
+    box-shadow: 3px 3px 2px 1px #9d9e9e;
+}
+
+.number_btn:focus {
+    border: none;
+    outline: none;
+}
+
+.number_btn:active {
+    box-shadow: none;
+    background-color: #5ebdb6;
+    outline: none;
+}
+
+@media (max-height: 450px) and (orientation: landscape) {
+    .number_btn {
+        width: 27%;
+        height: 21%;
+        font-size: 1rem;
+    }
+}

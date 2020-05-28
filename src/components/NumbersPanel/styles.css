@@ -1,0 +1,7 @@
+.numbers_panel_container {
+    display: flex;
+    flex-wrap: wrap;
+    width: 74%;
+    height: 56vh;
+    background-color: #ffffff;
+}

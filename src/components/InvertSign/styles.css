@@ -1,0 +1,26 @@
+.invert_btn {
+    width: 65%;
+    height: 15%;
+    margin: auto;
+    border-radius: 15%;
+    border: none;
+    font-size: 1.5rem;
+    background-color: #8d8883;
+    color: white;
+    cursor: pointer;
+    box-shadow: 3px 3px 2px 1px #807c78;
+}
+
+.invert_btn:active {
+    box-shadow: none;
+    background-color: #EB904A;
+    outline: none;
+}
+
+@media (max-height: 450px) and (orientation: landscape) {
+    .invert_btn {
+        width: 45%;
+        height: 15%;
+        font-size: 0.9rem;
+    }
+}
