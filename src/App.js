@@ -101,7 +101,7 @@ function App() {
             return newState
           })
         }
-      } else if (prevState.split('').length < 16) {
+      } else if (prevState.split('').length < 16 || lastBtn === 'E') {
         if (e.keyCode === 190 || e.keyCode === 110) {
           if (prevState.indexOf('.') < 0) {
             return prevState + '.';

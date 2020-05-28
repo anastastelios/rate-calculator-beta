@@ -1,0 +1,13 @@
+h2 {
+    font-size: 1.2rem;
+    background-color: #337974;
+    color: white;
+    padding: 0.3rem;
+    margin-bottom: 0.5rem;
+}
+
+@media (min-width: 750px) and (orientation: portrait) {
+    h2 {
+        font-size: 1.75rem;
+    }
+}
